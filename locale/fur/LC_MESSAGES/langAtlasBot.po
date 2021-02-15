@@ -5,7 +5,7 @@
 #
 # Translators:
 # Còdaze Veneto <codazeveneto@gmail.com>, 2020
-# Francesco Garbo <garbo.francesco2@gmail.com>, 2021
+# Martino Buchini <martino.buchini@gmail.com>, 2021
 # Francesco Garbo <garbo.francesco2@gmail.com>, 2020
 # Federico Campagnolo <cmpfrc@gmail.com>, 2020
 # Rondevu M <rondevu.mister@protonmail.com>, 2020
@@ -15,33 +15,33 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-09 22:05+0100\n"
-"PO-Revision-Date: 2021-02-15 21:04+0100\n"
-"Last-Translator: Francesco Garbo <garbo.francesco2@gmail.com>, 2021\n"
-"Language-Team: English (United Kingdom) (https://www.transifex.com/codaze-veneto/teams/111785/en_GB/)\n"
+"PO-Revision-Date: 2021-02-15 20:58+0100\n"
+"Last-Translator: Martino Buchini <martino.buchini@gmail.com>, 2021\n"
+"Language-Team: Friulian (https://www.transifex.com/codaze-veneto/teams/111785/fur/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_GB\n"
+"Language: fur\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.2\n"
 
 #: main.py:135
 #, python-brace-format
 msgid "Nome lingua: <b>{langName}</b>"
-msgstr "Language Name: <b>{langName}</b>"
+msgstr "Non de lenghe: <b>{langName}</b>"
 
 #: main.py:140 main.py:151 main.py:164 main.py:400 main.py:415
 msgid "❌ Anulla"
-msgstr "❌ Cancel"
+msgstr "❌ Anule"
 
 #: main.py:141
 msgid ""
 "Ottimo!\n"
 "Ora invia il link associato alla lingua che vorresti fosse aggiunta. Ricorda che il link deve corrispondere ad un progetto presente nella piattaforma https://translations.telegram.org e deve avere un formato simile al seguente: https://t.me/setlanguage/<i>language_user_name</i>"
 msgstr ""
-"Great! Now send the link of the language in this format: https://t.me/setlanguage/<i>language_user_name</i>\n"
+"Benon! Cumò mande il link de lenghe in chest formât: https://t.me/setlanguage/<i>language_user_name</i>\n"
 "\n"
-"Note: The link must be related to a project on https://translations.telegram.org "
+"Note: Il link al à di jessi colegât a un progjet su https://translations.telegram.org"
 
 #: main.py:148
 #, python-brace-format
@@ -56,11 +56,11 @@ msgid ""
 "\n"
 "Esempio: Italia, Brasile, Spagna, ..."
 msgstr ""
-"Thank you!\n"
+"Graciis!\n"
 "\n"
-"Now send the names of the countries separated by comma ( , ) in which this language has an official or recognition status.\n"
+"Cumò mande i nons dai stâts separâts cuntune virgule ( , ) lì che cheste lenghe e à un status di uficialitât o di ricognossiment.\n"
 "\n"
-"Example: Italy, Brazil, Spain, ..."
+"Esempli: Italie, Brasîl, Spagne, ..."
 
 #: main.py:157
 msgid ""
@@ -68,14 +68,14 @@ msgid ""
 "\n"
 "Puoi copiare il link corretto nella pagina della lingua che stai chiedendo sulla piattaforma https://translations.telegram.org sotto la voce \"Sharing Link\"."
 msgstr ""
-"⚠️ Invalid Link. The format of the link must be: https://t.me/setlanguage/language_user_name\n"
+"⚠️ Link no valit. Il formât dal link al à di jessi: https://t.me/setlanguage/language_user_name\n"
 "\n"
-"You can copy the sharing link of your language on the Translation Panel: https://translations.telegram.org"
+"Tu puedis copiâ il link di condivision de tô lenghe te Plateforme di Traduzion: https://translations.telegram.org"
 
 #: main.py:161
 #, python-brace-format
 msgid "Stati: <b>{states}</b>"
-msgstr "Countries: <b>{states}</b>"
+msgstr "Stâts: <b>{states}</b>"
 
 #: main.py:165
 msgid ""
@@ -83,13 +83,13 @@ msgid ""
 "\n"
 "Riporta il codice linguistico <a href='https://en.m.wikipedia.org/wiki/List_of_ISO_639-3_codes'>ISO_639-3</a> collegato alla tua lingua. Se non possiedi questa informazione premi sul link appena fornito per recuperarla."
 msgstr ""
-"Almost done!\n"
+"Cuasi fat!\n"
 "\n"
-"Please send us the <a href='https://en.m.wikipedia.org/wiki/List_of_ISO_639-3_codes'>3-letter</a> language code of this language. Click on the link to find out."
+"Cumò mande il codiç linguistic a <a href='https://en.m.wikipedia.org/wiki/List_of_ISO_639-3_codes'>3 letaris</a> di cheste lenghe. Vierç il link par cirîlu."
 
 #: main.py:177 main.py:206 main.py:316 main.py:335 main.py:391 main.py:396 main.py:406 main.py:411 main.py:443 main.py:447 main.py:451 main.py:455 main.py:459 main.py:541 main.py:575 main.py:629 main.py:670
 msgid "⏪ Torna al menù"
-msgstr "⏪  Main menu"
+msgstr "⏪ Torne al menù"
 
 #: main.py:179
 msgid ""
@@ -99,19 +99,19 @@ msgid ""
 "\n"
 "Se la lingua proposta non avesse ancora i requisiti minimi, approfittane per cercare di completarla."
 msgstr ""
-"✅ Proposal submitted successfully!\n"
+"✅ Propueste mandade cun sucès!\n"
 "\n"
-"Given the large number of requests we receive, we ask you to be patient for a few days. You will soon receive feedback on the progress of your request.\n"
+"Ti domandìn di vê pazience par cualchi zornade, parcè che nus rivin une vore di domandis. Ti rivarà in curt un inzornament sul progrès de tô domande.\n"
 "\n"
-"If the proposed language does not meet the minimum requirements, take the opportunity to try to complete it."
+"Se la lenghe proponude no sodisfe ancjemò i recuisîts minims, profite di chest timp par completâle."
 
 #: main.py:203 main.py:401
 msgid "Inviaci un commento. Il tuo messaggio verrà visionato dagli amministratori dell'Atlante."
-msgstr "Send us a comment. Your message will be viewed by the Atlas administrators."
+msgstr "Mandinus un coment. Il to messaç al sarà controlât dai aministradôrs dal Atlant."
 
 #: main.py:207
 msgid "✅ Commento inoltrato!"
-msgstr "✅ Comment forwarded!"
+msgstr "✅ Coment mandât!"
 
 #: main.py:272 main.py:339
 msgid ""
@@ -123,41 +123,41 @@ msgid ""
 "👉🏻 richiedere l'aggiunta di una lingua all'Atlante o fornirci un feedback\n"
 "👉🏻 cambiare lingua al bot"
 msgstr ""
-"<b>Welcome to the Telegram Language Atlas!</b>\n"
+"<b>Benvignût tal Atlant des Lenghis di Telegram.</b>\n"
 "\n"
-"With this bot, you can:\n"
-"👉  find and apply a language for Telegram\n"
-"👉  sort through Telegram's languages, alphabetically or politically\n"
-"👉  request to add a language to this bot's Atlas\n"
-"👉  change this bot's language or send feedback"
+"Midiant chest bot tu puedis:\n"
+"👉🏻 cirî e aplicâ une lenghe par Telegram\n"
+"👉🏻 navigâ tra lis lenghis di Telegram, in maniere alfabetiche o politiche\n"
+"👉🏻 domandâ di zontâ une lenghe al Atlant di chest bot\n"
+"👉🏻 cambiâ la lenghe di chest bot o mandâ un coment"
 
 #: main.py:272 main.py:339
 msgid "1️⃣ Catalogazione alfabetica"
-msgstr "1️⃣ Alphabetical Order"
+msgstr "1️⃣ Catalogazion alfabetiche"
 
 #: main.py:272 main.py:339
 msgid "2️⃣ Catalogazione politica"
-msgstr "2️⃣ Political Order"
+msgstr "2️⃣ Catalogazion politiche"
 
 #: main.py:272 main.py:339 main.py:396
 msgid "➕ Richiedi lingua"
-msgstr "➕ Request lang"
+msgstr "➕ Domande une lenghe"
 
 #: main.py:272 main.py:339
 msgid "💬 Feedback"
-msgstr "💬 Feedback"
+msgstr "💬 Comente"
 
 #: main.py:272 main.py:339
 msgid "🗣 Lingua Bot"
-msgstr "🗣 Bot language"
+msgstr "🗣 Lenghe dal bot"
 
 #: main.py:272 main.py:339
 msgid "ℹ️ Info"
-msgstr "ℹ️  About"
+msgstr "ℹ️ Informazions"
 
 #: main.py:310
 msgid "Operazione annullata."
-msgstr "Operation cancelled."
+msgstr "Operazion anulade."
 
 #: main.py:317
 msgid ""
@@ -165,13 +165,13 @@ msgid ""
 "\n"
 "Gli amministratori del bot sono già stati avvisati dell'intoppo. Se il problema persiste non esitare ad utilizzare il modulo di feedback, grazie. 📬"
 msgstr ""
-"❌ An error has occurred. Please try later.\n"
+"❌ Al è sucedût un erôr. Torne a provâ ca di un pôc.\n"
 "\n"
-"Bot admins have been notified of the issue. If the problem persists, do not hesitate to use the feedback form, thank you. 📬"
+"I aministradôrs dal bot a son za stâts visâts dal intric. Se la situazion no si comede torne a scrivinus cul modul pai coments, graciis. 📬"
 
 #: main.py:333
 msgid "⚠️ Ancora non disponibile"
-msgstr "⚠️ Not yet available"
+msgstr "⚠️ No disponibil ancjemò"
 
 #: main.py:336
 msgid ""
@@ -179,9 +179,9 @@ msgid ""
 "\n"
 "Seleziona la prima lettera del nome della lingua che stai cercando."
 msgstr ""
-"Languages are sorted in the <b>Alphabetical order</b> 🔠\n"
+"Tu âs decidût di continuâ cu la <b>catalogazion alfabetiche</b>!🔠\n"
 "\n"
-"Click the first letter of the language you want."
+"Selezione la prime letare de lenghe che tu vuelis cirî."
 
 #: main.py:356
 #, python-brace-format
@@ -190,40 +190,40 @@ msgid ""
 "\n"
 "Ora, con la modalità INLINE del bot @langAtlastBot, potrai condividere nelle chat la lingua che hai richiesto. 👌🏻"
 msgstr ""
-"Great news! Your request to add the language {langName} into our Language Atlas has been accepted! 👌🏻\n"
+"Buinis gnovis! La tô domande di zontâ la lenghe {langName} al nestri Atlant des Lenghis e je stade acetade! 👌🏻\n"
 "\n"
-"Now, with the INLINE mode of @langAtlasBot bot, you can share on chats the language you requested. 👌🏻"
+"Cumò, cu la modalitât INLINE dal bot @langAtlasBot, tu puedis condividi tes chats la lenghe che tu âs domandade. 👌🏻"
 
 #: main.py:364
 #, python-brace-format
 msgid "Siamo spiacenti, la tua richiesta di inserimento della lingua {langName} nell'Atlante Linguistico è stata rifiutata. <b>Per ora</b> non possiede i requisiti di qualità e completezza necessari al suo inserimento. 🖐🏻"
-msgstr "Sorry, your request for adding {langName} in the Language Atlas has been refused. At the moment it does not have the quality and completeness required for its inclusion. 🖐"
+msgstr "Nus displâs, la tô domande di zontâ la lenghe {langName} al Atlant des Lenghis no je stade acetade. Par cumò no à la cualitât e la completece che a coventin par jessi zontade. 🖐"
 
 #: main.py:371
 msgid "Siamo spiacenti, il codice ISO fornito non è corretto. Invia una nuova richiesta con le informazioni corrette."
-msgstr "Sorry, the ISO code you provided is incorrect. Submit a new request with the correct information."
+msgstr "Nus displâs, il codiç ISO che tu âs mandât nol è just. Mande une gnove domande cu la informazion juste."
 
 #: main.py:378
 msgid "Spiacenti, la lingua che hai inviato non esiste."
-msgstr "Sorry, the language you submitted does not exist."
+msgstr "Nus displâs, la lenghe che tu âs mandât no esist."
 
 #: main.py:378
 #, python-brace-format
 msgid "Siamo spiacenti, risultando già presente nell'Atlante Linguistico, la tua richiesta di inserimento della lingua {langName} non può essere soddisfatta."
-msgstr "Sorry, since it is already present in the Language Atlas, your request to add the language {langName} cannot be satisfied."
+msgstr "La lenghe {langName} che tu âs domandât di zontâ e je za presinte tal Atlant des Lenghis!"
 
 #: main.py:385
 msgid ""
 "Siamo spiacenti, hai fornito un link errato. Ricorda: l'inserimento di una lingua nell'Atlante prevede un link ad progetto presente nella piattaforma https://translations.telegram.org\n"
 "Invia una nuova richiesta con le informazioni corrette."
 msgstr ""
-"Sorry, you provided an incorrect link. Remember, adding a language in the Atlas requires a link to the related project on https://translations.telegram.org\n"
+"Nus displâs, il link che tu âs mandât nol è just. Visiti che par zontâ una lenghe al Atlant al covente il link dal progjet colegât su https://translations.telegram.org\n"
 "\n"
-"Please, submit a new request with the correct information."
+"Par plasê mande une gnove domande cu la informazion juste."
 
 #: main.py:391
 msgid "Procedi ▶️"
-msgstr "Proceed ➡️"
+msgstr "Va indevant ▶️"
 
 #: main.py:392
 msgid ""
@@ -231,50 +231,50 @@ msgid ""
 "\n"
 "La richiesta verrà visionata dai nostri moderatori, in seguito ti sarà fornito un riscontro sull'avanzamento della proposta, ti chiediamo di pazientare."
 msgstr ""
-"With this procedure, you can request the addition of a language to the Atlas bot.\n"
+"Cun cheste procedure tu puedis domandâ di zontâ une lenghe al bot dal Atlant.\n"
 "\n"
-"Your request will be checked by our moderators, and they will give you feedback on its progress. We ask you to be patient until then."
+"La domande e sarà controlade dai nestris moderadôrs, che ti mandaran comunicazions sul avanzament de propueste. Ti domandìn di vê pazience."
 
 #: main.py:395
 msgid "🚫 Siamo spiacenti, è possibile richiedere l'aggiunta di nuove lingue soltanto tramite la chat privata con il bot."
-msgstr "🚫 Sorry. To request the addition of new languages, please message the bot in private."
+msgstr "🚫 Nus displâs, par domandâ di zontâ gnovis lenghis scrîf inte chat privade cul bot."
 
 #: main.py:397
 msgid "Salve! Se desideri richiedere l'inserimento di una nuova lingua utilizza questo spazio e la seguente procedura, grazie."
-msgstr "Hi! If you want to request the insertion of a new language, use this space and the following procedure, thanks."
+msgstr "Mandi! Se tu vuelis domandâ di zontâ une gnove lenghe dopre chest spazi e la procedure guidade, graciis."
 
 #: main.py:405
 msgid "🚫 Siamo spiacenti, è possibile inviare un feedback soltanto tramite la chat privata con il bot."
-msgstr "🚫 Sorry, you can only send feedback via private chat with the bot."
+msgstr "🚫 Nus displâs, si pues mandâ un coment dome midiant de chat privade cul bot."
 
 #: main.py:406
 msgid "💬 Scrivi un commento"
-msgstr "💬 Send a comment"
+msgstr "💬 Scrîf un coment"
 
 #: main.py:407
 msgid "Salve! Se desideri inviare un feedback riguardo l'Atlante premi il tasto sottostante."
-msgstr "Hello! If you wish to send feedback about the Atlas or this bot, press the button below."
+msgstr "Mandi! Se tu vuelis mandâ un coment sul Atlant o su chest bot, cjalcje il boton chi sot."
 
 #: main.py:410 main.py:412
 msgid "✅ Operazione annullata."
-msgstr "✅ Operation cancelled."
+msgstr "✅ Operazion anulade."
 
 #: main.py:416
 msgid ""
 "Ottimo!\n"
 "Scrivi il nome della <b>lingua</b> che vorresti fosse aggiunta."
 msgstr ""
-"Great!\n"
+"Benon!\n"
 "\n"
-"Send the <b>name of the language</b> you want to add to the Atlas."
+"Scrîf il <b>non de lenghe</b> che tu volaressis zontâ al Atlant."
 
 #: main.py:420
 msgid "Lingua del Bot cambiata. Premi su /start per applicare le modifiche."
-msgstr "Bot language changed. Press /start to apply the changes."
+msgstr "Lenghe dal bot cambiade. Dopre /start par aplicâ lis modifichis."
 
 #: main.py:443
 msgid "🌐 Traduci bot"
-msgstr "🌐 Translate bot"
+msgstr "🌐 Tradûs il bot"
 
 #: main.py:444
 msgid ""
@@ -284,11 +284,11 @@ msgid ""
 "\n"
 "Nel caso dovessi riscontrare qualche difficoltà non esitare ad utilizzare il modulo di feedback."
 msgstr ""
-"Change this bot's language.\n"
+"Cambie la lenghe di chest bot. \n"
 "\n"
-"If the language you want is not below, request it by signing on <a href='https://www.transifex.com/codaze-veneto/telegram-linguistic-atlas/'>Transifex</a> and help us develop it. 👍\n"
+"Se la lenghe che tu vuelis no je chi sot e tu vuelis domandâle, jentre su <a href='https://www.transifex.com/codaze-veneto/telegram-linguistic-atlas/'>Transifex</a> e judinus a svilupâle. 👍🏻\n"
 "\n"
-"If you have any difficulty please do not hesitate to use the Feedback button."
+"Se tu âs cualchi fastidi, contatinus daurman cul boton pai coments."
 
 #: main.py:447
 msgid "📝 Disclaimer"
@@ -296,11 +296,11 @@ msgstr "📝 Disclaimer"
 
 #: main.py:447
 msgid "👥 Riconoscimenti"
-msgstr "👥 Recognition"
+msgstr "👥 Ricognossiments"
 
 #: main.py:447
 msgid "⚒ Codice sorgente"
-msgstr "⚒ Source code"
+msgstr "⚒ Codiç sorzint"
 
 #: main.py:448
 msgid ""
@@ -311,17 +311,17 @@ msgid ""
 "\n"
 "Utilizza il modulo di feedback per eventuali apprezzamenti, suggerimenti, proposte, o se vuoi supportare in qualche modo il progetto. Grazie di aver mostrato interesse per l'Atlante! 😉"
 msgstr ""
-"The <b>Language Atlas</b> aims to spread all possible linguistic localizations of Telegram, offering advanced search and application functions.\n"
+"L'<b>Atlant des Lenghis</b> al smire a pandi dutis lis pussibilis versions linguistichis di Telegram, midiant une ricercje avanzade e altris funzionalitâts.\n"
 "\n"
-"The Atlas was created following the idea and design of  <a href='https://t.me/cmpfrc'>Federico</a>, along with the support of collaborators of <a href='https://t.me/LenguaVeneta'>Còdaze Veneto</a> — an organization that deals with localization and spread of products in the Venetian language.\n"
+"L'Atlant al è stât creât daûr di une idee e dal design di <a href='https://t.me/cmpfrc'>Federico</a>, cu la poie dai colaboradôrs di <a href='https://t.me/LenguaVeneta'>Còdaze Veneto</a> — une organizazion che si ocupe de traduzion e de difusion di prodots te lenghe venite.\n"
 "\n"
-"This bot was developed in <a href=\"https://en.wikipedia.org/wiki/Python\">python</a> and is maintained by <a href='https://t.me/garboh'>Francesco</a>  — an IT technician, junior developer and UniPD student in Computer Engineering.\n"
+"Chest bot al è stât svilupât in <a href=\"https://en.wikipedia.org/wiki/Python\">python</a> e al è mantignût di <a href='https://t.me/garboh'>Francesco</a> — un tecnic informatic, svilupadôr e student di Inzegnarie Informatiche ae Universitât di Padue.\n"
 "\n"
-"Use the feedback button to send us your comments, suggestions and proposals, or if you want to support the project in some way. Thank you for your interest in the Atlas! 😉"
+"Dopre il boton feedback par mandânus i tiei coments, sugjeriments e propuestis, o se tu vuelis supuartâ il progjet in cualchi mût. Graciis pal to interès tal Atlant! 😉"
 
 #: main.py:451 main.py:455
 msgid "️️◀️ Indietro"
-msgstr "\r️ Back"
+msgstr "️️◀️ Indaûr"
 
 #: main.py:452
 msgid ""
@@ -333,9 +333,9 @@ msgid ""
 msgstr ""
 "📝 <b>Disclaimer</b>\n"
 "\n"
-"The data included in the Language Atlas, including the political organization of languages, is collected from the Italian and English Wikipedia. In case of errors or missing data, please notify us via the feedback form.\n"
+"I dâts includûts tal Atlant des Lenghis, cjapâde dentri ancje la organizazion politiche des lenghis, a son cjapâts su de Wikipedia Taliane e di chê Inglese. Tal câs di erôrs o di informazions che a mancjin, par plasê scrîf un coment par visânus.\n"
 "\n"
-"The languages included in the Atlas require a minimum standard of completeness and quality. It is required that at least 2 clients are complete and that there is a willingness to possibly complete and update the entire translation project. As a language can easily be added it can just as easily be removed. Thanks for understanding."
+"Lis lenghis includudis tal Atlant a domandin un standard minim di completece e cualitât. Al ven domandât che almancul 2 clients a sedin completâts e che a sedi la volontât di completâ e inzornâ dut il progjet di traduzion. Une lenghe e pues jessi tant zontade che gjavade cun facilitât. Graciis per comprension."
 
 #: main.py:456
 msgid ""
@@ -343,17 +343,17 @@ msgid ""
 "\n"
 "➖ l'<a href='https://arlef.it/en/'>ARLeF</a> ha presentato l'Atlante durante la <b>conferenza stampa regionale</b> sulla localizzazione di Telegram in Friulano."
 msgstr ""
-"This section lists references to sites, newspapers, news agencies or any other media that has dealt with or spread our project:\n"
+"Cheste sezion e je une liste di riferiments a sîts, gjornâi, comunicâts stampe o altris media che a àn mostrât o sparniçât il nestri progjet:\n"
 "\n"
-"➖ <a href='https://arlef.it/en/'>ARLeF</a> presented the Atlas during the <b>regional press conference</b> on the localization of Telegram in Friulano"
+"➖ La <a href='https://arlef.it/en/'>ARLeF</a> e à presentât l'Atlant dilunc de <b>conference stampe regjonâl</b> su la traduzion di Telegram par Furlan"
 
 #: main.py:459
 msgid "America settentrionale"
-msgstr "North America"
+msgstr "Americhe setentrionâl"
 
 #: main.py:459
 msgid "America meridionale"
-msgstr "South America"
+msgstr "Americhe meridionâl"
 
 #: main.py:459
 msgid "Europa"
@@ -361,15 +361,15 @@ msgstr "Europe"
 
 #: main.py:459
 msgid "Africa"
-msgstr "Africa"
+msgstr "Afriche"
 
 #: main.py:459
 msgid "Asia"
-msgstr "Asia"
+msgstr "Asie"
 
 #: main.py:459
 msgid "Oceania"
-msgstr "Oceania"
+msgstr "Oceanie"
 
 #: main.py:460
 msgid ""
@@ -377,9 +377,9 @@ msgid ""
 "\n"
 "Seleziona il continente che vuoi esplorare."
 msgstr ""
-"Languages are sorted in the <b>Political order</b> <a href='https://atlasbot.garbo.tech/img/imgbot/planisfero_colorato.jpg'>🌍</a>\n"
+"Lis lenghis a son metudis tal <b>ordin politic</b> <a href='https://atlasbot.garbo.tech/img/imgbot/planisfero_colorato.jpg'>🌍</a>\n"
 "\n"
-"Select the continent you want to explore."
+"Selezione il continent che tu vuelis esplorâ."
 
 #: main.py:486
 #, python-brace-format
@@ -388,9 +388,9 @@ msgid ""
 "\n"
 "Ora seleziona lo Stato che vuoi visitare."
 msgstr ""
-"You have selected <b>{continent}</b>! <a href='{linkToContinentIMG}'> 🌍 </a>\n"
+"Tu âs selezionât la <b>{continent}</b>. <a href='{linkToContinentIMG}'>🌍</a>\n"
 "\n"
-"Now select the country."
+"Cumò selezione un stât."
 
 #: main.py:509
 #, python-brace-format
@@ -401,15 +401,15 @@ msgid ""
 "\n"
 "Nel caso non sia presente in questo elenco, prima di richiedere la lingua che cerchi, prova a visitare altri Stati o ad utilizzare la catalogazione alfabetica."
 msgstr ""
-"The following languages are currently used in the country: <b>{state}</b>! <a href='{linkToStateIMG}'>🌍</a>\n"
+"Lis lenghis chi sot a son dopradis in dì di vuê tal stât <b>{state}</b>. <a href='{linkToStateIMG}'>🌍</a>\n"
 "\n"
-"Select the language for available options.\n"
+"Sielç une lenghe par viodi lis opzions disponibilis.\n"
 "\n"
-"If the language is not present below, please check other countries or use the Alphabetical Catalog, before making a request."
+"Se la lenghe che tu ciris no je chi sot, controle altris stâts o pûr dopre l'ordin alfabetic, prime di mandânus une domande."
 
 #: main.py:541 main.py:576 main.py:630 main.py:672
 msgid "◀️ Indietro"
-msgstr "\r️ Back"
+msgstr "️️◀️ Indaûr"
 
 #: main.py:542 main.py:705
 #, python-brace-format
@@ -420,11 +420,11 @@ msgid ""
 "\n"
 "Ricorda: potrai sempre tornare alla lingua iniziale tramite le impostazioni native dell'app."
 msgstr ""
-"To use Telegram in {langName}, click on this link:\n"
+"Par doprâ Telegram par {langName} vierç chest link:\n"
 "\n"
-"<a href='{linkToLangIMG}'>👉</a> https://t.me/setlanguage/{langCode}\n"
+"<a href='{linkToLangIMG}'>👉🏻</a> https://t.me/setlanguage/{langCode}\n"
 "\n"
-"Remember: you can always go back to the previous language from Telegram's settings."
+"Visiti che tu puedis simpri tornâ ae lenghe di prime tes impostazions di Telegram."
 
 #: main.py:573
 #, python-brace-format
@@ -437,34 +437,34 @@ msgid_plural ""
 "\n"
 "Nel caso non sia presente in questo elenco, prima di richiedere la lingua che cerchi, assicurati che la lettera scelta sia corretta o prova ad utilizzare la catalogazione politica."
 msgstr[0] ""
-"There is <b>{count}</b> language starting with <b>{char}</b>!\n"
+"A son <b>{count}</b> lenghis che a tachin cul <b>{char}</b>.\n"
 "\n"
-"If the language is not present below, please check if the chosen letter is correct or try using the Political Catalog, before making a request."
+"Se la lenghe che tu ciris no je chi sot, controle se la letare sielte e je juste o pûr dopre l'ordin politic, prime di mandânus une domande."
 msgstr[1] ""
-"There are <b>{count}</b> languages starting with <b>{char}</b>!\n"
+"A son <b>{count}</b> lenghis che a tachin cul <b>{char}</b>.\n"
 "\n"
-"If the languages are not present below, check if the chosen letter is correct, or use the Political Catalog, before making a request."
+"Se la lenghe che tu ciris no je chi sot, controle se la letare sielte e je juste o pûr dopre l'ordin politic, prime di mandânus une domande."
 
 #: main.py:624
 msgid "⬅️ Pag. prec."
-msgstr "⬅️ Previous"
+msgstr "⬅️ Prime"
 
 #: main.py:626
 msgid "Pag. suc. ➡️"
-msgstr "Next ➡️"
+msgstr "Dopo ➡️"
 
 #: main.py:705
 #, python-brace-format
 msgid "Applica la lingua {langName} su Telegram!"
-msgstr "Apply the {langName} language on Telegram!"
+msgstr "Apliche la lenghe {langName} su Telegram!"
 
 #: main.py:710
 msgid "Non è stata trovata alcuna lingua."
-msgstr "No language was found."
+msgstr "No je stade cjatade nissune lenghe."
 
 #: main.py:712
 msgid "❌ Non è stata trovata alcuna lingua."
-msgstr "❌ No language was found."
+msgstr "❌ No je stade cjatade nissune lenghe."
 
 #: sendms.py:43
 msgid ""
@@ -472,6 +472,6 @@ msgid ""
 "\n"
 "Nell'Atlante è stata inserita la lingua {nameLang}. Per provarla utilizza il link {linkLang}!"
 msgstr ""
-"➕ New language added!\n"
+"➕ Zontade une gnove lenghe!\n"
 "\n"
-"The language {nameLang} has been inserted in the Atlas. Use the link {linkLang} to try it!"
+"La lenghe {nameLang} e je stade zontade al Atlant. Dopre il link {linkLang} par provâle!"
