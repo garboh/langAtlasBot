@@ -490,8 +490,8 @@ def inline_query(bot, update):
         varCountryName = "countryName_en"
         if getBotLang(update.callback_query.message.chat_id) == "it":
             varCountryName = "countryName"
-        # elif getBotLang(update.callback_query.message.chat_id) == "fur":
-            # varCountryName = "countryName_fur"
+        elif getBotLang(update.callback_query.message.chat_id) == "fur":
+            varCountryName = "countryName_fur"
         elif getBotLang(update.callback_query.message.chat_id) == "vec":
             varCountryName = "countryName_vec"
         elif getBotLang(update.callback_query.message.chat_id) == "es":
@@ -513,8 +513,8 @@ def inline_query(bot, update):
         varDialectName = "name"
         if getBotLang(update.callback_query.message.chat_id) == "it":
             varDialectName = "name"
-        # elif getBotLang(update.callback_query.message.chat_id) == "fur":
-            # varDialectName = "name_fur"
+        elif getBotLang(update.callback_query.message.chat_id) == "fur":
+            varDialectName = "name_fur"
         elif getBotLang(update.callback_query.message.chat_id) == "vec":
             varDialectName = "name_vec"
         elif getBotLang(update.callback_query.message.chat_id) == "es":
@@ -546,8 +546,8 @@ def inline_query(bot, update):
         varDialectName = "name"
         if getBotLang(update.callback_query.message.chat_id) == "it":
             varDialectName = "name"
-        # elif getBotLang(update.callback_query.message.chat_id) == "fur":
-            # varDialectName = "name_fur"
+        elif getBotLang(update.callback_query.message.chat_id) == "fur":
+            varDialectName = "name_fur"
         elif getBotLang(update.callback_query.message.chat_id) == "vec":
             varDialectName = "name_vec"
         elif getBotLang(update.callback_query.message.chat_id) == "es":
@@ -591,8 +591,8 @@ def getState(bot, update, continent, offset):
     varCountryName = "countryName"
     if getBotLang(update.callback_query.message.chat_id) == "it":
         varCountryName = "countryName"
-    # elif getBotLang(update.callback_query.message.chat_id) == "fur":
-        # varCountryName = "countryName_fur"
+    elif getBotLang(update.callback_query.message.chat_id) == "fur":
+        varCountryName = "countryName_fur"
     elif getBotLang(update.callback_query.message.chat_id) == "vec":
         varCountryName = "countryName_vec"
     elif getBotLang(update.callback_query.message.chat_id) == "es":
