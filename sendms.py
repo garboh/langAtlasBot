@@ -15,7 +15,7 @@ def main(args):
     idRichiesta = args[1]
 
 
-    db = MySQLdb.connect(host="",
+    db = MySQLdb.connect(host="localhost",
                          user="",
                          passwd="",
                          db="",
@@ -29,7 +29,7 @@ def main(args):
     nameLang = row[2]
     linkLang = row[3]
     
-    sql = "SELECT * FROM `user`"
+    sql = "SELECT * FROM `user"
     cur.execute(sql)
     
     rows = cur.fetchall()
@@ -43,16 +43,24 @@ def main(args):
         chat_id = row[0]
         messaggio = ""
         if row[2] == "it":
-			messaggio = "➕Nuova lingua aggiunta!\n\nNell'Atlante è stata inserita la lingua {nameLang}. Per provarla utilizza il link {linkLang}!".format(nameLang=nameLang, linkLang=linkLang)
-		elif row[2] == "vec":
-			messaggio = "➕Łengua nova zontada!\n\nInte l'Atlante A ze stà zontada na łengua nova {nameLang}. Par proarla dòpara el link {linkLang}!".format(nameLang=nameLang, linkLang=linkLang)
-		else:
-			messaggio = "➕New language added!\n\nThe language {nameLang} has been inserted in the Atlas. Use the link {linkLang} to try it!".format(nameLang=nameLang, linkLang=linkLang)
+            messaggio = "➕Nuova lingua aggiunta!\n\nNell'Atlante è stata inserita la lingua {nameLang}. Per provarla utilizza il link {linkLang}!".format(nameLang=nameLang, linkLang=linkLang)
+        elif row[2] == "vec":
+            messaggio = "➕Łengua nova zontada!\n\nInte l'Atlante A ze stà zontada na łengua nova {nameLang}. Par proarla dòpara el link {linkLang}!".format(nameLang=nameLang, linkLang=linkLang)
+        elif row[2] == "es":
+            messaggio = "➕ ¡Nuevo idioma añadido!\n\n¡El idioma {nameLang} ha sido añadido al Atlas! Utiliza el siguiente enlace para probarlo: {linkLang}".format(nameLang=nameLang, linkLang=linkLang)
+        elif row[2] == "fur":
+            messaggio = "➕ Zontade une gnove lenghe!\n\nLa lenghe {nameLang} e je stade zontade al Atlant. Dopre il link {linkLang} par provâle!".format(nameLang=nameLang, linkLang=linkLang)
+        
+        # elif row[2] == "cat":
+            # messaggio = "".format(nameLang=nameLang, linkLang=linkLang)
+            # String NULL -> https://www.transifex.com/codaze-veneto/telegram-linguistic-atlas/translate/#ca/langtla_botpot/308075038
+            
+        else:
+            messaggio = "➕New language added!\n\nThe language {nameLang} has been inserted in the Atlas. Use the link {linkLang} to try it!".format(nameLang=nameLang, linkLang=linkLang)
         try:
-             #reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back", callback_data="back_start"), InlineKeyboardButton("Support the project 💪", url="https://paypal.me/garboh")]])
-             #bot.sendMessage(chat_id, text=messaggio, reply_markup=reply_markup)
+             reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("Share", switch_inline_query="{}".format(nameLang))]])
              
-             bot.sendMessage(chat_id, text=messaggio, parse_mode=ParseMode.HTML)
+             bot.sendMessage(chat_id, text=messaggio, parse_mode=ParseMode.HTML, reply_markup=reply_markup)
              print("Inviato {} - Inviati {}".format(conta, inviati))
              inviati += 1
         except:
@@ -62,16 +70,16 @@ def main(args):
         conta = conta + 1
         contados = contados + 1
         rimanenti = totali - conta
-        if contados == 20:
+        if contados == 5:
             try:
                 bot.editMessageText(chat_id=-1001198344093, message_id=prova.message_id, text="Spam avviato... \n{} messagi inviati\n{} errori\n\n{} rimanenti / {} totali".format(inviati, errori, rimanenti, totali), )
             except:
                 pass
             contados=0
-            time.sleep(1)
+            time.sleep(0.3)
         else:
             time.sleep(0.5)
-    
+   
     
     
     bot.sendMessage(-1001198344093, text="Finito!!! \n{} messaggi inviati \n{} errori".format(inviati, errori))
