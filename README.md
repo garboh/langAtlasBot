@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python)](https://www.python.org/)
 [![python-telegram-bot](https://img.shields.io/badge/python--telegram--bot-21.5-blue)](https://python-telegram-bot.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License: GNU GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-@langAtlasBot-blue?logo=telegram)](https://t.me/langAtlasBot)
 
 **@langAtlasBot** is a Telegram bot that lets users discover, search, and install Telegram language localizations. Through an inline button interface, users can browse hundreds of languages and apply them to the app in a single click.
@@ -224,4 +224,4 @@ To propose a new language for the Atlas, use the bot directly: [@langAtlasBot](h
 
 ## License
 
-Distributed under the **MIT** License. See [LICENSE](LICENSE) for details.
+Distributed under the **GNU General Public License v3.0** License. See [LICENSE](LICENSE) for details.
